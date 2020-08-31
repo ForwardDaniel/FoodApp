@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/food5"
+    tools:context=".variety">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/bg_style">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="1st item is ready"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"/>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/top_bg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegan\nSalad"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K35.5"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="95dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="23sp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="160dp"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="220dp"
+        android:background="@color/colorPrimary"
+        android:text="-"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="290dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="320dp"
+        android:background="@color/colorPrimary"
+        android:text="+"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
+<Button
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center"
+    android:text="Go to menu"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginTop="480dp"/>
+</LinearLayout>

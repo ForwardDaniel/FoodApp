@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background8">
+
+    <Button
+        android:id="@+id/buttonMpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="204dp"
+        android:background="#04F10E"
+        android:text="M_PESA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonVisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFEB3B"
+        android:text="visa"
+        app:layout_constraintStart_toStartOf="@+id/buttonMpesa"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMpesa" />
+</androidx.constraintlayout.widget.ConstraintLayout>
